@@ -18,3 +18,5 @@ Index|     Description
 9    |     Binary Variable, 1 if ad is a greenlight ad, 0 if not.
 10   |     Make
 11   |     Model
+
+This program gathers between 70 and 80% of data for a specific range of years and a chosen make and model of car. The remaining uncollected portion is due to variation in ads that can be unpredicatable and this program works only with ads where the price is given in euro.
