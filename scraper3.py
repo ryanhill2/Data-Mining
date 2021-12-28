@@ -1,15 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-data=[]
-make="Ford"
-model="Focus"
-year="2011"
-area="Clare"
-source="trade"
-fuelType="Diesel"
-transmission="Manual"
-verification="any"
+
 
 
 def scraper(make,model,year,area,source,fuelType,transmission,verification):
