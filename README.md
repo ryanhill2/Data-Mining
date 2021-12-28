@@ -5,6 +5,7 @@ I used Python3 and the packages "requests" and "BeautifulSoup", to scrape data f
 The data scraped from each ad is cleansed and manipulated in order to save the following data format to a CSV.
 
 Index|     Description
+
 0    |     Binary Variable, 1 if ad is a spotlight ad, 0 if not.
 1    |     Binary Variable, 1 if Milage is measured in Km, 0 for Miles.
 2    |     Milage (based on unit specified in index 1). 
