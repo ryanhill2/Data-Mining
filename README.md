@@ -36,7 +36,7 @@ This program gathers between 70 and 80% of data for a specific range of years an
 There are three files in this upload:
 
 Scraper3:
-Contains function "final_data" which generates data for ad's coherent to specific conditions entered as arguments to the function.
+Contains function "final_data" which generates data from ad's according to specific conditions entered as arguments to the function.
 
 Data_Gatherer:
 Contains the function "data_gatherer" which iterates the "final_data" function from scraper3 through all possible inputs, for a certain range of years and a certain make and model.
