@@ -4,13 +4,17 @@ Generating data from donedeal.ie, using data mining, data cleansing and data man
 I used Python3 and the packages "requests" and "BeautifulSoup", to scrape data from ad's.
 The data scraped from each ad is cleansed and manipulated in order to save the following data format to a CSV.
 
+Steps to run application
+
+Check file data_golf.csv is empty
+Run the write_to_csv.py file through the cli using "python write_to_csv.py" or using an IDE
+
 Index|     Description
 
 0    |     Binary Variable, 1 if ad is a spotlight ad, 0 if not.
 
 1    |     Binary Variable, 1 if Milage is measured in Km, 0 for Miles.
 
-2    |     Milage (based on unit specified in index 1). 
 
 3    |     Price.
 
