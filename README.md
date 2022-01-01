@@ -6,8 +6,8 @@ The data scraped from each ad is cleansed and manipulated in order to save the f
 
 Steps to run application
 
-Check file data_golf.csv is empty
-Run the write_to_csv.py file through the cli using "python write_to_csv.py" or using an IDE
+1 Check file data_golf.csv is empty
+2 Run the write_to_csv.py file through the cli using "python write_to_csv.py" or using an IDE
 
 Index|     Description
 
